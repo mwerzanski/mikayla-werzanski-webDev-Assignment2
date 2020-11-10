@@ -44,3 +44,7 @@ class OnOff extends React.Component {
         return <div style={onOffStyle(backgroundColor)}></div>;
     }
 }
+
+// ideas for the if statements in video from oct 28 at 1:45:ish
+
+//usereducer() should be helpful for increasing and decreasing the speed
