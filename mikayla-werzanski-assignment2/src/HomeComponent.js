@@ -1,13 +1,13 @@
 import React from 'react';
-import Title from '../Navbar';
+import Title from './Navbar';
 import './App.css';
 
-class HomeApp extends React.Component {
+export default class HomeComponent extends React.Component {
     constructor() {
         super();
         this.state = {
-            gridHeight: null,
-            gridWidth: null,
+            gridHeight: 10,
+            gridWidth: 10,
         };
     }
 
@@ -17,7 +17,7 @@ class HomeApp extends React.Component {
             (
                 <div>
                     <h5>Input Simulation Size:</h5>
-                    <span text-align="center">
+                    <span justify="center">
                         <input type="text" value={this.state.gridHeight} />
                         x
                         <input type="text" value={this.state.gridWidth} />
@@ -28,5 +28,3 @@ class HomeApp extends React.Component {
         );
     }
 }
-
-export default HomeApp;

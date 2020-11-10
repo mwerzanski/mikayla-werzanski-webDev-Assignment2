@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class GridApp extends React.Component {
+export default class SimulationComponent extends React.Component {
     constructor() {
         super();
         this.state = {
